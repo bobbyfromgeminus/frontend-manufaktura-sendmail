@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Send Mail</title>
+    <script src="./js/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </head>
@@ -20,7 +21,7 @@
 
     <div class="col-12 col-md-6 offset-md-3">
 
-        <form action="sendmail.php" method="POST">
+        <form id="form">
             
             <div class="form-group mt-3">
               <label for="name">Name</label>
@@ -42,11 +43,14 @@
               <textarea class="form-control" name="message" id="message" rows="3"></textarea>
             </div>
 
-            <button type="submit" id="send" class="btn btn-success mt-3">Send Mail</button>      
+            <button type="button" id="send" class="btn btn-success mt-3">Send Mail</button>      
 
         </form>
 
+        <div class="result"></div>
+
     </div>
 
+    <script src="./js/main.js"></script>
 </body>
 </html>
