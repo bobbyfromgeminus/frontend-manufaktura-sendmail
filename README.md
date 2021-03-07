@@ -16,7 +16,7 @@ A megoldás két levelet is küld.
 ### jQuery/Ajax vezérelt küldés
 A második megoldásban az index_ajax.html-t alkalmazzuk, amely az első verziós űrlaphoz képest annyiban változott, hogy eltávolítottuk róla a form action-t és a gomb típust átállítottuk button-ra (a submit ugyanis frissíti az oldalt).
 Eltérés továbbá, hogy a html-ben bekötésre került a jQuery (head-ben) és a main.js (/body előtt).
-A main.js-ben natív javascript helyett jQuery-t használunk.
+A main.js-ben natív javascript helyett jQuery-t használunk. Az értelmeztés segítése érdekében komment formájában megtalálható a natív javascript megoldás is.
 
 #### Mi is az a jQuery?
 A jQuery lényegében egy pehelysúlyú javascript könyvtár, amelyet azzal a céllal alkottak meg, hogy egyszerűbbé tegyék a JavaScript használatát.
