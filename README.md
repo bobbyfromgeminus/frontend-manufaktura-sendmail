@@ -21,7 +21,7 @@ A main.js-ben natív javascript helyett jQuery-t használunk. Az értelmeztés s
 #### Mi is az a jQuery?
 A jQuery lényegében egy pehelysúlyú javascript könyvtár, amelyet azzal a céllal alkottak meg, hogy egyszerűbbé tegyék a JavaScript használatát.
 A jQuery-vel képesek vagyunk:
-- a DOM elemeinak manipulálására
+- a DOM elemeinek manipulálására
 - animációk létrehozására
 - ajax hívások küldésére a szerver irányába
 
